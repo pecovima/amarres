@@ -20,6 +20,7 @@
             "outputPath": "dist/amarres",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "baseHref": "/amarres/",
             "polyfills": [
               "zone.js"
             ],
