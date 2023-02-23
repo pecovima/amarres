@@ -17,10 +17,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/amarres/",
             "outputPath": "dist/amarres",
             "index": "src/index.html",
-            "main": "src/main.ts",
-            "baseHref": "/amarres/",
+            "main": "src/main.ts" ,           
             "polyfills": [
               "zone.js"
             ],
